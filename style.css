@@ -1,0 +1,217 @@
+*{
+	margin: 5px; padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bg{
+	background-image: url('bg1.jpg');
+}
+.headerdiv{
+	display: flex;
+	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+  background-image: url('bg1.jpg')no-repeat;
+
+}
+.headerdiv .logodiv img{
+	width: 250px; height: 70px;
+  padding-left: 30px;
+}
+.headerdiv nav{
+	padding-left: 100px;
+  margin-top: 20px;
+
+}
+.headerdiv nav a{
+	margin: 40px;
+	text-decoration: none;
+ color: #38323a;
+ text-transform: uppercase;
+ margin-top: 20px;
+}
+main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 300px;
+  color: white;
+}
+main .right{
+ padding-right: 70px;
+}
+
+main .left{
+ padding-left: 100px;
+}
+
+.left h2{
+ font-size: 20px;
+ text-transform: capitalize;
+ font-weight: lighter;
+ color: black;
+ margin-top: 100px;
+}
+
+.left h1{
+ font-size: 55px;
+ text-transform: capitalize;
+ font-weight: 700;
+ margin: 15px 0;
+ color: black;
+}
+
+.left p{
+ margin-left: 20px;
+ color: black;
+}
+
+
+
+.dropbtn {
+  background-color: #4b3c61;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  margin-left: 60px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*for teacher page */
+.Teachers{
+  background-image: url('bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.teachernav{
+  display: flex;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+.teachernav a{
+  margin: 40px;
+  text-decoration: none;
+  color: #3a2b2b;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+.teachermain{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 300px;
+ color: #3a2b2b;
+}
+.teachermain .right{
+ padding-right: 70px;
+}
+
+.teachermain .left{
+ padding-left: 100px;
+}
+
+.teachermain h2{
+ font-size: 20px;
+ text-transform: capitalize;
+ font-weight: lighter;
+ color: #3a2b2b;
+ margin-top: 100px;
+}
+
+.teachermain h1{
+ font-size: 55px;
+ text-transform: capitalize;
+ font-weight: 700;
+ margin: 15px 0;
+ color: #3a2b2b;
+}
+
+.teachermain p{
+ margin-bottom: 20px;
+ color: #3a2b2b;
+}
+
+.addstudent{
+  background-image: url('bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.attendancetaking{
+  background-image: url('bg3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* view att  */
+.teacherlogin{
+  background-image: url('bg3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.feesub{
+  background-image: url('bg3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+
+/*form edit */
+
+.form-container{
+  
+ background: #fff;
+ padding: 40px;
+ border-radius: 5px;
+ box-shadow: 10px 0px 10px 0px #000;
+}
+
+
+
+/* Making Responsive   */
+
+
+
+
